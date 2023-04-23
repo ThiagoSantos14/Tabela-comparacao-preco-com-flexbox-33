@@ -1,0 +1,607 @@
+@font-face {
+    src: url(canadian.woff);
+    font-family: 'canadian';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: -10px;
+}
+
+img {
+    padding-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.container:hover img {
+    transform: scale(0.9);
+    transition: all 0.9s;
+}
+
+.foto-branca { 
+    width: 300px;
+    height: 155px;
+    border: none;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'canadian';
+    font-size: 15px;
+}
+
+p:hover {
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+
+div {
+    border: groove 1px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    width: 300px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background: rgb(15, 202, 15);
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+
+span {
+    margin-top: -50px;
+    padding-bottom: 50px;
+}
+
+.buttons {
+    margin-left: 85px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.conteudo-lateral {
+    background: white;
+}
+
+.payment-depot {
+    background: rgb(216, 215, 215);
+}
+
+.none7 {
+    height: 130px;
+}
+
+.payment-cloud {
+    background: white;
+}
+
+.payline {
+    background: rgb(216, 215, 215);
+}
+
+.fattmerchant {
+    background: white;
+}
+
+.cdgcommerce {
+    background: rgb(216, 215, 215);
+}
+
+.text-primeira-filheira {
+    height: 105px;
+    margin-top: -20px;
+}
+
+.text-lateral-maior {
+    height: 165px;
+}
+
+.text1-payline {
+    margin-top: -45px;
+}
+
+.none1-fatt {
+    margin-top: -47px;
+    height: 101px;
+}
+
+.text1-cdg {
+    height: 102px;
+    margin-top: -60px;
+}
+
+.text2-cdg {
+    height: 163px;
+}
+
+@media (max-width: 480px) {
+    div {
+        width: 85px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    img {
+        width: 60px;
+        height: 30px;
+    }
+
+    .foto-branca {
+        height: 154px;
+        border: none;
+    }
+
+    .text-primeira-filheira  {
+        margin-top: -10px;
+        height: 90px;
+    }
+
+    .conteudo-lateral {
+        margin-top: -30px;
+    }
+
+    .payment-depot {
+        margin-top: -11px;
+        margin-left: -165px;
+    }
+
+    button {
+        width: 60px;
+    }
+
+    .buttons {
+        margin-left: 1px;
+    }
+
+    .payment-cloud {
+        margin-top: -11px;
+    }
+
+    .payline {
+        margin-top: 1px;
+    }
+
+    .text7-payline {
+        margin-top: -10px;
+    }
+
+    .none1 {
+        height: 79px;
+        padding-right: 10px;
+    }
+
+    .none2 {
+        height: 67px;
+        padding-right: 15px;
+    }
+
+    .none3 {
+        height: 79px;
+        padding-right: 10px;
+    }
+
+    .none4 {
+        height: 67px;
+        padding-right: 19px;
+    }
+
+    .none5 {
+        height: 79px;
+    }
+
+    .none6 {
+        height: 93px;
+    }
+
+    .none7 {
+        height: 166px;
+    }
+
+    .text-lateral-maior {
+        padding-right: 30px;
+    }
+
+    .none8 {
+        height: 68px;
+        margin-top: 11px;
+        border: none;
+    }
+
+    .none9 {
+        height: 81px;
+    }
+
+    .imagem-payline {
+        padding-right: 10px;
+    }
+
+    .imagem-fatt {
+        margin-bottom: 95px;
+    }
+
+    .none1-fatt {
+        height: 90px;
+    }
+
+    .none2-fatt {
+        margin-top: -14px;
+        height: 93px;
+        border:none;
+    }
+
+    .text2-fatt {
+        margin-top: 35px;
+    }
+
+    .none3-fatt {
+        height: 83px;
+    }
+
+    .none4-fatt {
+        height: 80px;
+    }
+
+    .none5-fatt {
+        height: 96px;
+    }
+
+    .none6-fatt {
+        height: 165px;
+    }
+
+    .none7-fatt {
+        height: 79px;
+    }
+
+    .none8-fatt {
+        height: 81px;
+    }
+
+    .imagem-cdg {
+        margin-bottom: 106px;
+    }
+
+    .text1-cdg {
+        height: 89px;
+    }
+
+    .conteudo-text1 {
+        margin-left: 15px;
+    }
+
+    .text2-cdg {
+        height: 168px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .none7 {
+        height: 165px;
+    }
+
+    .none6-fatt {
+        height: 165px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .none7 {
+        height: 165px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+    .none7 {
+        height: 165px;
+    }
+
+    .none6-fatt {
+        height: 165px;
+    }
+}
+
+@media (min-width: 1290px) and (max-width: 1366px) {
+    .none7 {
+        height: 165px;
+    }
+
+    .none6-fatt {
+        height: 165px;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .none7 {
+        height: 165px;
+    }
+
+    .none6-fatt {
+        height: 165px;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .none7 {
+        height: 165px;
+    }
+
+    .none6-fatt {
+        height: 165px;
+    }
+}
+
+@media (min-width: 1921px) and (max-width: 3840px) {
+    div {
+        width: 867px;
+        height: 220px;
+    }
+
+    img {
+        width: 300px;
+        height: 110px;
+        margin-left: 200px;
+        margin-bottom: 100px;
+    }
+
+    .foto-branca {
+        margin-bottom: 100px;
+        border: none;
+        width: 500px;
+        height: 159px;
+        margin-left: 500px;
+        background-color: white;
+    }
+
+    p {
+        font-size: 40px;
+    }
+    button {
+        width: 300px;
+        height: 100px;
+        font-size: 50px;
+        margin-top: 15px;
+        margin-left: 160px;
+    }
+
+    .buttons {
+        width: 680px;
+    }
+
+    .text-primeira-filheira {
+        margin-top: 10px;
+        width: 680px;
+        height: 200px;
+        padding-right: 100px;
+    }
+
+    .none1 {
+        padding-right: 100px;
+        width: 680px;
+    }
+
+    .none2 {
+        padding-right: 100px;
+        width: 680px;
+    }
+
+    .none3 {
+        padding-right: 100px;
+        width: 680px;
+    }
+
+    .none4 {
+        padding-right: 100px;
+        width: 680px;
+    }
+
+    .none5 {
+        padding-right: 100px;
+        width: 680px;
+    }
+
+    .none6 {
+        padding-right: 100px;
+        width: 680px;
+    }
+
+    .text-lateral-maior {
+        padding-right: 100px;
+        width: 680px;
+        height: 300px;
+    }
+
+    .none7 {
+        padding-right: 100px;
+        width: 680px;
+    }
+
+    .none8 {
+        padding-right: 100px;
+        width: 680px;
+    }
+
+    .none9 {
+        padding-right: 100px;
+        width: 680px;
+    }
+
+    .conteudo-lateral {
+        margin-top: -3px;
+    }
+
+    .none7 {
+        height: 300px;
+    }
+
+    .none1-fatt {
+        height: 200px;
+        margin-top: 11px;
+    }
+
+    .none6-fatt {
+        height: 300px;
+    }
+
+    .text1-cdg {
+        margin-top: 10px;
+        height: 200px;
+    }
+
+    .text2-cdg {
+        height: 300px;
+    }
+
+    .payment-depot div {
+        background: rgb(216, 215, 215);
+        margin-left: 190px;
+    }
+
+    .payline div {
+        background: rgb(216, 215, 215);
+    }
+
+    .cdgcommerce div {
+        background: rgb(216, 215, 215);
+    }
+    
+    .buttons {
+        margin-top: 2px;
+        margin-left: 1px;
+    }
+
+    .foto-branca {
+        margin-bottom: -20px;
+    }
+
+    .imagem-payment-depot {
+        margin-bottom: -10px;
+    }
+
+    .payment-depot {
+        margin-left: 20px;
+    }
+
+    .imagem-payment-cloud {
+        margin-bottom: -15px;
+    }
+
+    .imagem-payline {
+        margin-bottom: -25px;
+        padding-left: 150px;
+    }
+
+    .text1-payline {
+        margin-top: 10px;
+        margin-bottom: -50px;
+        background: rgb(216, 215, 215);
+    }
+
+    .imagem-fatt {
+        margin-bottom: -13px;
+    }
+
+    .imagem-cdg {
+        margin-bottom: -13px;
+    }
+}
+
+@media (min-width: 3841px) {
+    div {
+        width: 650px;
+        height: 200px;
+    }
+
+    p {
+        font-size: 40px;
+    }
+
+    img {
+        width: 500px;
+        margin-bottom: 60px;
+        padding-left: 100px;
+    }
+
+    .foto-branca {
+        margin-bottom: 50px;
+    }
+
+    button {
+        width: 200px;
+        height: 70px;
+        font-size: 40px;
+        margin-left: 200px;
+        margin-top: 17px;
+    }
+
+    .buttons {
+        height: 130px;
+        margin-left: 1px;
+        margin-top: 2px;
+    }
+
+    .payment-depot{
+        margin-left: 130px;
+    }
+
+    .payment-depot div {
+        background:rgb(216, 215, 215);
+    }
+
+    .imagem-payment-cloud {
+        margin-bottom: 115px;
+    }
+
+    .text-primeira-filheira {
+        height: 50px;
+    }
+
+    .text-lateral-maior {
+        height: 200px;
+    }
+
+    .none7 {
+        height: 200px;
+    }
+
+    .payline div {
+        background: rgb(216, 215, 215);
+    }
+
+    .imagem-payline {
+        margin-bottom: 90px;
+    }
+
+    .imagem-fatt {
+        margin-bottom: 60px;
+    }
+
+    .cdgcommerce div {
+        background: rgb(216, 215, 215);
+    }
+
+    .imagem-cdg {
+        margin-bottom: 98px;
+    }
+}
